@@ -1,4 +1,4 @@
-## DevOps lab
+# DevOps lab
 
 - ORIGINAL REPOSITROY: [GitLab](https://gitlab.com/zamasulolmeme123/devops_lab/).
 
@@ -22,7 +22,7 @@
     kind version
 ```
 
-# Scripts start
+## Scripts start
 
 ```
     chmod +x scripts/*.sh

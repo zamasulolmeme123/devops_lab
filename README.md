@@ -26,4 +26,13 @@
 
 ```
     chmod +x scripts/*.sh
+    make up # start up.sh script
+    make addons # start addons.sh script
+    make status # проверка nodes, ingress, pods -A
+    make demo # apply app.yaml и ingress.yaml
+    make check #  status + test nginx
+    make destroy #  delete cluster
+    make logs-ingress # ingress-nginx logs
+    make events # check last 30 events
 ```
+

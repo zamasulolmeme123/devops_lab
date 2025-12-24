@@ -25,3 +25,9 @@ check: status
 
 destroy:
 	kind delete cluster --name $(CLUSTER_NAME) || true
+
+logs-ingress:
+	kubectl -n ingress-nginx logs deploy/ingress-nginx-controller --tail=50
+
+events:
+	kubectl get events -A --sort-by=.lastTimestamp | tail -n 30

@@ -36,4 +36,3 @@ GitLab = source of truth, GitHub = mirror
     make logs-ingress # ingress-nginx logs
     make events # check last 30 events
 ```
-

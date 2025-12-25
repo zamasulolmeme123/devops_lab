@@ -1,0 +1,24 @@
+# build artifacts
+bin/
+*.exe
+*.log
+
+# VCS
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Go tooling
+coverage.out
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Secrets/прочее
+.env
+*.pem
+*.key

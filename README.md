@@ -3,7 +3,7 @@
 - ORIGINAL REPOSITORY: [GitLab](https://gitlab.com/zamasulolmeme123/devops_lab/).
 GitLab = source of truth, GitHub = mirror
 
-- Practicing DevOps tools like: kubernetes, grafana, prometheus, CI/CD, and others.
+- Practicing DevOps tools like: kubernetes, grafana, prometheus, CI/CD, and others .
 
 ## Download
 
